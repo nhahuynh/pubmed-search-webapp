@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Awesome PubMed Search</title>
+  <meta charset= "utf-8">
+  <meta name= "viewport" content="width=device-width, initial-scale=1">
+  <link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src= "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src= "script.js" type = "text/javascript"></script>
+	<link type= "text/css" rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+<!--container stuff-->
+
+  <div class="container">
+    <div class="jumbotron">
+        <h1>EZ PubMed Search</h1>
+    </div>
+    <div class="row">
+  <!--search box stuff-->
+      <div class= "col-md-6">
+        <div class= "searchbox">
+          <div class= "radiomenu">
+          <h2>Select search area</h2>
+          <br>
+            <form>
+              <input type="radio" id="searchpm" name="searchwhere" value="Pubmed" checked> Pubmed
+              <input type="radio" id="searchpmc" name="searchwhere" value="Pubmed Central"> Pubmed Central
+              <input type="radio" id="searchpmb" name="searchwhere" value="Pubmed Books"> Pubmed Books
+            </form>
+          </div>
+            <br>
+            <form>
+              <input id="query" type="search" name="pubmedsearch" placeholder="Enter your search terms">
+              <button id="submitquery" type="button" class="btn btn-primary btn-lg" name="submit" value="submit">Submit</button>
+            </form>
+          <br>
+          <p>PROTIP: You can combine search terms with Boolean operators (AND, OR, NOT)</p>
+        </div>
+      </div>
+     <!--search history-->
+      <div class= "col-md-6">
+      <div class= "recentqueries">
+          <h2>Search history</h2>
+          <br>
+          <div id="historyBox">
+          </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="panel-footer">
+      <h3>About this project</h3>
+      <p>This search interface was created with Bootstrap and JavaScript.</p>
+    </div>
+  </body>
+</html>

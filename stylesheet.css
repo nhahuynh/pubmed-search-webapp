@@ -1,0 +1,61 @@
+.jumbotron{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 30px;
+	color: #2a4d69;
+	background-color: #adcbe3;
+}
+
+body{
+	background-color:#fdfafa;
+
+}
+
+h2 {
+	font-size: 30px;
+	color: #2a4d69;
+}
+.searchbox{
+	background-color:#adcbe3;
+	width: 520px;
+	height: 300px;
+	padding: 20px;
+	margin: auto;
+	margin-left: 5px;
+	}
+
+.radiomenu input {
+
+	width:50px;
+}
+
+.recentqueries{
+	background-color:#adcbe3;
+	width: 540px;
+	height: 380px;
+	padding: 15px;
+	}
+#historyBox{
+	background-color:#fdfafa;
+	width: 480px;
+	height: 250px;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	}
+
+p{
+	font-family: Arial;
+	font-size: 18px;
+	color: #203a69;
+	}
+
+input{
+	border: 2px solid #86bec6;
+	font-size: 20px;
+	width: 350px;
+	}
+
+.panel-footer{
+	height: 50px;
+	margin-top: 100px;
+}
